@@ -33,7 +33,7 @@ jobs:
           -S .
           -B build
           -DCMAKE_BUILD_TYPE=${{ matrix.conf }}
-          -C test-config.cmake
+          -C cmake/test-config.cmake
       - name: Build
         run: cmake --build build --config ${{ matrix.conf }}
       - name: Test
