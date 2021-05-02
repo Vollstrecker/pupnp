@@ -19,7 +19,7 @@ set (BUILD_TESTING ON
 	FORCE
 )
 
-set (DDOWNLOAD_AND_BUILD_DEPS ON
+set (DOWNLOAD_AND_BUILD_DEPS ON
 	CACHE
 	BOOL
 	"Get all missing stuff"
